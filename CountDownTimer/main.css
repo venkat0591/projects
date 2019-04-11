@@ -1,0 +1,22 @@
+.wrapper {
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainInput {
+	display: flex;
+}
+.outputTime {
+	margin-top: 2em;
+}
+
+.output {
+	font-size: 2.5em;
+}
+
+.inputNumber {
+	font-size: 1.4em;
+}
+

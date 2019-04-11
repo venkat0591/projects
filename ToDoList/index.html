@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheet/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>todos</h1>
+    <div class="inputContent">
+    <input type="text" id="text" class="fieldPadding" placeholder="Press [enter] to add item">
+    
+    </div>
+    <div id="list" class="itemsList"></div>
+  
+  <div class="filter">
+    
+    <ul class="bottomUl">
+      <li class="bottomUlSpan"><span class="itemsLeft"></span></li>
+      <li class="bottomUlOptions">
+        <ul class="nestedUl">
+          <li class="options"><button>All tasks</button></li>
+          <li class="options"><button>Done</button></li>
+          <li class="options"><button>Pending</button></li>
+        </ul>
+      </li>
+      <li><button id="removeAll" class="bottomUlRemove">Remove All</button></li>
+    </ul>
+    
+  </div>
+  </div>
+  <script type="text/javascript" src="./jscode/index.js"></script>
+</body>
+</html>

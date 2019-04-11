@@ -1,0 +1,15 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.wrapper {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}

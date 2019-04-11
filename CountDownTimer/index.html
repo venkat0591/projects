@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>CountDownTimer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>How long till...</h1>
+      <div class="mainInput">
+        <input type="number" name="year" placeholder="Year" id="year" class="inputNumber" />
+        <input type="number" name="month" placeholder="Month" id="month" class="inputNumber"/>
+        <input type="number" name="day" placeholder="Day (of month)" id="day" class="inputNumber"/>
+        <input type="button" name="" value="submit" class="submit" />
+      </div>
+      <div class="outputTime">
+        <div id="years" class="output"></div>
+        <div id="months" class="output"></div>
+        <div id="days" class="output"></div>
+        <div id="hours" class="output"></div>
+        <div id="minutes" class="output"></div>
+        <div id="seconds" class="output"></div>
+        <div id="leftUntil" class="output"></div>
+      </div>
+      </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
