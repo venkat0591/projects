@@ -23,7 +23,7 @@ a {
 	magin
 }
 
-.author {
+.author, h3 {
 	font-size: 1.8em;
 	color: #66a5ad;
 	padding-left: 0.5em;

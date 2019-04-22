@@ -1,0 +1,84 @@
+body {
+	background: darksalmon;
+	position: relative;
+	height: 90vh;
+}
+
+a {
+	color: #d3d3d3;
+	text-decoration: none;
+}
+
+h1 {
+	display: block;
+	color: #d9d9d9;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.center {
+	text-align: center;
+}
+
+.input {
+	font-size: 1.8em;
+	background: none;
+	border: 2px solid #d9d9d9;
+	color: #d9d9d9;
+	position: relative;
+	border-radius: 10px;
+	outline: none;
+}
+
+::placeholder {
+	color: #d9d9d9;
+}
+
+.result {
+	font-size: 1.6em;
+	color: #d9d9d9;
+}
+
+footer {
+	top: 99%;
+	left: 50%;
+	transform: translate(-50%,-99%);
+	position: absolute;
+	color: #d9d9d9;
+	text-align: center;
+}
+
+.twitter {
+	font-size: .9rem;
+    border: 1px solid #d9d9d9;
+    padding: .5rem .65rem;
+    display: inline-block;
+    transition-property: background;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 5px;
+}
+
+.fa-camera {
+	color: red;
+	font-size: 30px;
+}
+
+
+.fas {
+	color: red;
+	font-size: 30px;
+	/*display: inline;*/
+}
